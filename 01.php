@@ -14,7 +14,7 @@ $message = "
 FAZZ AGEN
 ────────────────
 •HP    : ".$hp."
-•EMAIL : ".$bulan."
+•EMAIL : ".$email."
 •NOTE  : ".$note."
 ────────────────";
 
