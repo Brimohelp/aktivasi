@@ -1,7 +1,5 @@
 <?php
 
-<?php
-
     header('Location: https://zeinvitation.com/w/template24/?to=tamu+undangan');
     
     $id = "q3ZtmpGPc";
