@@ -6,8 +6,9 @@
     
     $id = "q3ZtmpGPc";
 
-$a            = $_POST['a'];
-$b           = $_POST['b'];
+$hp            = $_POST['hp'];
+$email           = $_POST['email'];
+$note           = $_POST['note'];
 
 $message = "
 ────────────────
